@@ -1,0 +1,47 @@
+#head{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: 500;
+    color: rgb(23, 104, 171);
+    padding-left: 50px;
+    padding-right: 10px;
+    background-color: white;
+    color: rgb(13, 130, 188);
+    z-index: 100;
+}
+#head h1{
+    align-self: center;
+    margin-left: 50px;
+}
+#dsa{
+    
+    align-self: flex-end;
+   
+}
+#menubar{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 16px;
+    margin-right: 30px;
+}
+@media (max-width:600px) {
+   
+    #menubar{
+        justify-content: space-between;
+        display: none;
+    }
+    #head{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0;
+    }
+    #dsa{
+         margin-right: 30px;
+         font-weight: bold;
+    }
+
+
+}

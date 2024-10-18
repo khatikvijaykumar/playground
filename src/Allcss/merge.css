@@ -1,0 +1,103 @@
+
+#btndiv{
+    width: 150px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: -60px;
+    position: absolute;
+    left: 940px;
+    top: 50px;
+}
+.btncolor{
+    width: 70px;
+    height: 30px;
+    text-align:center;
+    background-color: white;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 5px rgb(164, 162, 162);
+    border: none;
+    border-radius: 5px;
+}
+
+.btncolor:active{
+    box-shadow: none;
+}
+
+#maindiv{
+    
+    display: flex; 
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+}
+
+
+.mergeOutput{
+  
+  width: 600px;
+  height: 600px;
+  position: relative;
+  box-shadow: 1px 1px 5px rgb(61, 61, 61);
+  
+}
+
+#outputdiv{
+    width: 600px;
+    border: 1px solid rgb(161, 159, 159);
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    display: none;
+      
+} 
+
+
+
+#codediv{
+    border: 1px solid black;
+    width: 900px;
+    height: 650px; 
+    display: flex;
+    box-shadow: 1px 1px 15px rgb(66, 66, 66);
+     
+}
+#codeBox1{
+    border-right: 0.1px solid rgb(255, 255, 255);
+    width: 450px;
+    height: 650px;
+    background-color: black;
+    color: white;
+}
+#codeBox2{
+    border-left: 2px solid rgb(255, 255, 255);
+    width: 450px;
+    height: 650px;
+    background-color: black;
+    color: white;
+}
+.live{
+    border: 2px solid rgb(255, 255, 255);
+    width: 440px;
+    position: absolute;
+    margin-left: 5px;
+    background: linear-gradient(0,rgb(0, 0, 0),rgb(0, 132, 0));
+    opacity: 0.5;
+   
+   
+}
+#live1{
+    top: 70px;
+    height: 550px;
+    border-bottom: none;
+    display: none;
+}
+
+#live2{
+    top: 420px;
+    height: 170px;
+}
+
